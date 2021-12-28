@@ -91,6 +91,7 @@ app.post('/api/guess', (req, res) => {
   console.log('req.body.drawing', req.body.drawing)
   console.log('\n\n')
   const result = guess(req.body.drawing);
+
   res.json(result);
 });
 

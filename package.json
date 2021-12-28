@@ -1,18 +1,20 @@
 {
     "private": true,
-    "main": "server.js",
+    "main": "index.js",
+    "license": "MIT",
     "scripts": {
         "dev": "nodemon -L ./server.js",
-        "start": "node ./server.js",
         "train": "node ./train.js",
-        "eslint": "eslint --ext .js --ignore-path .gitignore ."
+        "eslint": "eslint --ext .js --ignore-path .gitignore .",
+
     },
     "dependencies": {
         "cors": "^2.8.5",
         "express": "^4.17.1",
         "lodash": "^4.17.21",
         "neataptic": "~1.4.7",
-        "quickdraw.js": "~1.0.6"
+        "quickdraw.js": "~1.0.6",
+        "vercel": "^23.1.2"
     },
     "devDependencies": {
         "eslint": "~4.18",
